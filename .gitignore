@@ -1,0 +1,5 @@
+public
+dist
+.vscode
+node_modules
+data/*.json*
