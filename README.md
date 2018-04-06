@@ -12,7 +12,6 @@
 
 
 # Instalasi
-[`^ kembali ke atas ^`](#)
 
 **Kebutuhan Sistem :**
 - `Web Server (Apache, Nginx, etc.)`
