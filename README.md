@@ -4,8 +4,8 @@
 <br/>
 
 
-[Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:
+[Instalasi dan konfigurasi](#instalasi)| [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:
 
 
 ***MiniNote*** merupakan suatu web apps yang berguna untuk menyimpan catatan kecil untuk siapa saja. Catatan tersebut aman karena dilengkapi dengan fitur password. User dapat membuat catatan berbasis markdown sehingga lebih interaktif.
@@ -40,32 +40,48 @@ $ sudo apt-get install nodejs
 git clone https://github.com/n1try/mininote
 ```
 
-- *install* npm
+- *install* npm <br>
 dalam root directory yang telah di clone :
 ```
 npm install
 ```
 
-- *install* npm
+- *install* npm <br>
 dalam folder mininote-frontend, install lagi npm
 ```
 npm install
 ```
 
-- config.js
+- config.js <br>
 dalam config.js atur kembali jika diperlukan, seperti web server port di set menjadi di atas 5000
 
-- npm run
+- npm run <br>
 Pada folder mininote-frontend run npm
 ```
 npm run build
 ```
 
-- npm start
+- npm start <br>
 Pada folder root start npm
 ```
 npm start
 ```
+
+# Cara Pemakaian
+[`^ kembali ke atas ^`](#)  
+1. Akses MiniNote melalui [http://localhost:8888](http://localhost:8888)
+2. Ketik judul notebook baik yang pernah disimpan ataupun yang baru 
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home.PNG?raw=true"></img>
+3. Ketik password dari notebook jika membuka memasukkan judul yang pernah dibuat sebelumnya ( jika baru buat password baru )  
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home_password.PNG?raw=true"></img>
+4. Jika berhasil akan masuk pada halaman berikut :  
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home_logged.PNG?raw=true"></img>
+5. Masukkan nama Note pada field "add note" lalu click tombol plus hijau, jika berhasil maka tampilan akan menjadi seperti ini :   
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/new_note.PNG?raw=true"></img>
+6. Selanjutnya isi catatan lalu clik icon save pada pojok kanan atas
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/fill_note.PNG?raw=true"></img>
+7. Setelah catatan di save akan muncul pilihan untuk membuka note di kiri
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/success_note.PNG?raw=true"></img>
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)  
