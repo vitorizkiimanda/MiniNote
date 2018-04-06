@@ -99,19 +99,19 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)  
-1. Akses dotclear melalui [http://localhost:888/dotclear](http://localhost:8888/dotclear)
-2. Melakukan registrasi admin, menentukan nama database dan password database  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/1.png?raw=true"></img>
-3. Mengisi informasi pengguna beserta password pengguna  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/2.png?raw=true"></img>
-4. Sebelum menggunakan dotclear, login terlebih dahulu  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/login.JPG?raw=true"></img>
-5. Setelah itu akan ditampilkan halaman dashboard, yang terdapat berbagai menu yaitu My favorites, Blog, System setting, Plugins  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/dashboard.JPG?raw=true"></img>
-6. Selanjutnya kita membuat postingan blog, klik new entry dan tulis postingan  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/new%20entry.JPG?raw=true"></img>
-7. Setelah postingan di save akan ada pilihan comment, jika kita ingin memberikan komentar maka klik comment  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/comment.JPG?raw=true"></img>
+1. Akses MiniNote melalui [http://localhost:8888](http://localhost:8888)
+2. Ketik judul notebook baik yang pernah disimpan ataupun yang baru 
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home.PNG?raw=true"></img>
+3. Ketik password dari notebook jika membuka memasukkan judul yang pernah dibuat sebelumnya ( jika baru buat password baru )  
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home_password.PNG?raw=true"></img>
+4. Jika berhasil akan masuk pada halaman berikut :  
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home_logged.PNG?raw=true"></img>
+5. Masukkan nama Note pada field "add note" lalu click tombol plus hijau, jika berhasil maka tampilan akan menjadi seperti ini :   
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/new_note.PNG?raw=true"></img>
+6. Selanjutnya isi catatan lalu clik icon save pada pojok kanan atas
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/fill_note.PNG?raw=true"></img>
+7. Setelah catatan di save akan muncul pilihan untuk membuka note di kiri
+<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/success_note.PNG?raw=true"></img>
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)  
