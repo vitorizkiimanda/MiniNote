@@ -14,9 +14,7 @@
 # Instalasi
 
 **Kebutuhan Sistem :**
-- `Web Server (Apache, Nginx, etc.)`
-- `PHP 5.5 or above`
-- `Database (MySQL, Postgre, etc.)`
+- `NodeJS >= 6.x`
 
 
 **Proses Instalasi :**
@@ -31,16 +29,6 @@ $ sudo apt update
 $ sudo apt install ssh
 ```
 
-- *Install* apache, MySQL, dan PHP
-```
-$ sudo apt install apache2
-$ sudo apt install mysql-server
-$ sudo apt install php
-$ sudo apt install libapache2-mod-php
-$ sudo apt install php-mysql
-$ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
-$ sudo service apache2 restart
-```
 - Buat database untuk Dotclear
 ```
 $ mysql -u root -p
