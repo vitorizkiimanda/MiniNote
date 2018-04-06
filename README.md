@@ -1,5 +1,5 @@
 
-<div align="center"><img src="https://github.com/haefa/MiniNote/blob/master/screenshot/logo.png?raw=true" width="290" height="110"></div>
+<div align="center"><img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/logo.PNG?raw=true" width="290" height="110"></div>
 
 <br/>
 
