@@ -29,89 +29,43 @@ $ sudo apt update
 $ sudo apt install ssh
 ```
 
-- Buat database untuk Dotclear
+- *Install* nodejs
 ```
-$ mysql -u root -p
-```
-```
-	CREATE DATABASE dotclear;
-	CREATE USER dotclear IDENTIFIED BY 'dotclear';
-	GRANT ALL PRIVILEGES ON dotclear.* TO dotclear;"
- ```
-
-- Pindah ke direktori web di localhost
-```
-$ cd /var/www/html/
+$ sudo apt-get update
+$ sudo apt-get install nodejs
 ```
 
-- Mendownload packages terakhir dari situs dotclear.org
+- clone source code mininote
 ```
-$ wget http://download.dotclear.org/latest.tar.gz
-```
-
-- Mengekstrak packages yang telah didownload
-```
-$ tar -xvzf latest.tar.gz
+git clone https://github.com/n1try/mininote
 ```
 
--  Mengatur hak akses
+- *install* npm
+dalam root directory yang telah di clone :
 ```
-$ sudo chmod a+w cache/
-$ sudo chmod a+w inc/
-$ sudo chmod a+w public/
+npm install
 ```
 
-- Mengakses web `localhost:8888/dotclear/`
+- *install* npm
+dalam folder mininote-frontend, install lagi npm
+```
+npm install
+```
 
-# Konfigurasi  
-[`^ kembali ke atas ^`](#)  
-Untuk mengakses konfigurasi, maka memilih menu System settings lalu memilih sub menu about:config.
+- config.js
+dalam config.js atur kembali jika diperlukan, seperti web server port di set menjadi di atas 5000
 
-- ***antispam*** : mencegah agar pengguna tidak melakukan spamming dalam pembuatan akun, tipe datanya adalah integer  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/1.JPG?raw=true"></img>
-- ***breadcrumb*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/2.JPG?raw=true"></img>
-- ***dcckeditor*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/3.JPG?raw=true"></img>
-- ***dclegacyeditor*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/4.JPG?raw=true"></img>
-- ***pings*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/5.JPG?raw=true"></img>
-- ***system*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/6.JPG?raw=true"></img>
-- ***themes*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/7.JPG?raw=true"></img>
+- npm run
+Pada folder mininote-frontend run npm
+```
+npm run build
+```
 
-
-# Maintenance
-[`^ kembali ke atas ^`](#)  
-
-Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu maintenance.  
-
-- ***servicing*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/1.JPG?raw=true"></img>  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/2.JPG?raw=true"></img>
-- ***backup*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/3.JPG?raw=true"></img>
-- ***alert settings*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>  <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/5.JPG?raw=true"></img>
-
-
-# Cara Pemakaian
-[`^ kembali ke atas ^`](#)  
-1. Akses MiniNote melalui [http://localhost:8888](http://localhost:8888)
-2. Ketik judul notebook baik yang pernah disimpan ataupun yang baru 
-<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home.PNG?raw=true"></img>
-3. Ketik password dari notebook jika membuka memasukkan judul yang pernah dibuat sebelumnya ( jika baru buat password baru )  
-<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home_password.PNG?raw=true"></img>
-4. Jika berhasil akan masuk pada halaman berikut :  
-<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/home_logged.PNG?raw=true"></img>
-5. Masukkan nama Note pada field "add note" lalu click tombol plus hijau, jika berhasil maka tampilan akan menjadi seperti ini :   
-<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/new_note.PNG?raw=true"></img>
-6. Selanjutnya isi catatan lalu clik icon save pada pojok kanan atas
-<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/fill_note.PNG?raw=true"></img>
-7. Setelah catatan di save akan muncul pilihan untuk membuka note di kiri
-<img src="https://github.com/vitorizkiimanda/MiniNote/blob/master/screenshoot/success_note.PNG?raw=true"></img>
+- npm start
+Pada folder root start npm
+```
+npm start
+```
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)  
