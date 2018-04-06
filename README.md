@@ -1,8 +1,6 @@
 
-<div align="center"><img src="https://www.opensourcecms.com/wp-content/uploads/dotclear-logo.png" width="290" height="110"></div>
+<div align="center"><img src="https://github.com/haefa/MiniNote/blob/master/screenshot/logo.png?raw=true" width="290" height="110"></div>
 
-<br/>
-<p align="center" style="font-size:200px"><b>Dotclear</b></p>
 <br/>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
