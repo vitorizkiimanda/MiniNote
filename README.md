@@ -11,7 +11,7 @@
 ***MiniNote*** merupakan suatu web apps yang berguna untuk menyimpan catatan kecil untuk siapa saja. Catatan tersebut aman karena dilengkapi dengan fitur password. User dapat membuat catatan berbasis markdown sehingga lebih interaktif.
 
 
-# Instalasi
+# Instalasi dan Konfigurasi
 
 **Kebutuhan Sistem :**
 - `NodeJS >= 6.x`
@@ -133,7 +133,4 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 Dibandingkan dengan aplikasi sejenis seperti Notes.io, Notes.io dapat login menggunakan akun Facebook dan Twitter. Namun, tidak ada fitur password maka catatan terbuka dan tidak aman. Catatan disimpan dalam bentuk *link string random* sehingga tidak bisa terganti, sehingga user harus mengingat link tersebut.
 
 # Referensi
-1. [Dotclear](https://dotclear.org/) - dotclear
-2. [ How To Install Dotclear In Ubuntu](https://www.linuxhelp.com/how-to-install-dotclear-in-ubuntu/) - linuxhelp
-3. [ Compare Dotclear vs. WordPress](https://comparisons.financesonline.com/wordpress-vs-dotclear) - financesonline
-3. [ Compare Dotclear vs. Drupal](https://comparisons.financesonline.com/dotclear-vs-drupal) - financesonline
+1. [Mininote](https://github.com/n1try/mininote) - Source code and Installation mininote
