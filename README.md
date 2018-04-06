@@ -115,23 +115,22 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)  
-**Dotclear** merupakan salah satu aplikasi *open source blog publishing* dan *Content Management System (CMS)* naungan *General Public License (GNU)*. Dotclear ditulis dalam bahasa pemrograman PHP. Dotclear dapat diinstal secara otomatis atau manual dan setelah proses selesai, itu memungkinkan pengguna mengelola aspek yang berbeda dari satu atau beberapa blog. Developer dapat membuat bebarapa blog dalam satu instalasi.
+**MiniNote** merupakan salah satu aplikasi *website open source* yang membantu user dalam menulis catatan. MiniNote dikembangkan dalam bahasa Javascript dengan framework VueJS untuk tampilan dan NodeJS untuk backend. MiniNote dapat diinstall secara manual. 
 
 **Kelebihan**
-- Publikasi mudah
-- Tema yang dapat disesuaikan sepenuhnya
-- *User-friendly administration*
-- Sistem komentar yang fleksibel
-- Dioptimalkan untuk skala besar, sehingga dapat berjalan lancar untuk seribu blog dan seratus ribu komentar
-- Dilengkapi dengan *media built-in* sehingga lebih mudah dalam memasukkan file musik dan video
+- Catatan Aman
+- Catatan Terjamin
+- Simple (*Easy to use*)
+- Ringan
+- Mendukung Markdown
 
 **Kekurangan**
-- Fitur keamanan rudimeter
-- Tidak cocok untuk proyek perusahaan besar
-- Pengelola aset yang sangat terbatas
+- Ada batasan jumlah karakter
+- Catatan yang sudah di ada, tidak ditampilkan saat *Landing Page*
+- Tidak ada fitur lupa password dan lupa judul catatan
 
-**Perbandingan dengan Blogging Platform lain**  
-Dibandingkan dengan blogging platform lain seperti Wordpress atau Drupal, Dotclear tidak memiliki integrasi dengan sistem atau aplikasi lain. Namun, fitur yang ditawarkan oleh Dotclear lebih beragam jika dibandingkan dengan Wordpress atau Drupal. Dotclear juga tersedia dalam bahasa Inggris dan Prancis, sementara Wordpress dan Drupal hanya tersedia dalam bahasa Inggris.
+**Perbandingan dengan Aplikasi Sejenis**  
+Dibandingkan dengan aplikasi sejenis seperti Notes.io, Notes.io dapat login menggunakan akun Facebook dan Twitter. Namun, tidak ada fitur password maka catatan terbuka dan tidak aman. Catatan disimpan dalam bentuk *link string random* sehingga tidak bisa terganti, sehingga user harus mengingat link tersebut.
 
 # Referensi
 1. [Dotclear](https://dotclear.org/) - dotclear
